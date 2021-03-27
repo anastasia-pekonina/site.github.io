@@ -1,0 +1,803 @@
+@font-face{
+font-family: 'Montserrat';
+src: url(./fonts/Montserrat/Montserrat-Black.ttf);
+font-weight: normal;
+font-style: normal;
+}
+
+
+@font-face{
+font-family: 'Montserrat';
+src: url(./fonts/Montserrat/Montserrat-Light.ttf);
+font-weight: 300;
+font-style: normal;
+}
+
+
+@font-face{
+font-family: 'Montserrat';
+src: url(./fonts/Montserrat/Montserrat-ExtraLight.ttf);
+font-weight: 200;
+font-style: normal;
+}
+    
+@font-face{
+font-family: 'Montserrat';
+src: url(./fonts/Montserrat/Montserrat-Bold.ttf);
+font-weight: 400;
+font-style: normal;
+}
+@font-face{
+font-family: 'Quicksand';
+src: url(./fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+font-weight: 400;
+font-style: normal;
+}
+
+body{
+max-width: 100%;
+margin-right: 0;
+margin: 0;
+padding: 0;
+height: 100%;
+width: 100%;
+}
+
+/*начало хедера*/
+.header{
+width: 100%;
+}
+.conteiner-logo{
+width: 100%;
+display: flex;
+justify-content: space-between;
+padding-bottom: 40px;
+}
+.conteiner-logo h1{
+display: flex;
+text-align:left;
+color: #212121;
+font-family: "Montserrat";
+font-size: 25px;
+font-weight: 700;
+padding-top: 50px; 
+padding-left: 112px;
+}
+.conteiner-logo nav{
+display: flex;
+justify-content: space-between;
+color: #212121;
+font-family: "Montserrat";
+font-size: 20px;
+font-weight: 300;
+padding-top: 50px;
+padding-left: 165px;
+}
+li{
+list-style-type: none;
+}
+.search{
+padding-top: 50px;
+padding-right: 121px;
+padding-left: 40px;
+}
+
+/* конец хедера */
+
+
+
+/* начало 1 секции*/
+.web{
+background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./img/pexels-photo-356056.jpeg.png) no-repeat ;
+background-size: cover;
+height: 100%;
+}
+.conteiner-web_development{
+
+}
+.conteiner-web_development h1{
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 50px;
+font-weight: 400;
+text-align: center;
+padding-top: 180px;
+}
+.conteiner-web_development p{
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 22px;
+font-weight: 300;
+text-align: center;
+}
+.chpok{
+display: flex;
+margin: 0 auto;
+text-align: center;
+}
+.main-btn{
+width: 220px;
+height: 70px;
+background-color: white;
+border-color: white;
+color: black;
+font-size: 20px;
+text-align: center;
+font-family: 'Montserrat';
+font-weight: 300;
+margin-left: 495px;
+margin-top: 108px;
+}
+
+.main-btn2{
+width: 220px;
+height: 70px;
+color: white;
+background-color: Transparent;
+background-repeat:no-repeat;
+border-color: white;
+cursor:pointer;
+overflow: hidden;
+font-size: 20px;
+text-align: center;
+font-family: 'Montserrat';
+font-weight: 300;
+margin-left: 25px;
+margin-top: 108px;
+}
+.conteiner-arrow{
+width: 100%;
+margin: 0 auto;
+}
+.arrow{
+display: flex;
+margin-top: 100px;
+padding-left: 715px;
+padding-bottom: 76px;
+}
+/* конец 1 секции */
+
+
+/* начало второй секции */
+.about-us{
+height: 100%;
+}
+.title{
+color: #212121;
+font-family: "Montserrat";
+font-size: 30px;
+text-align: center;
+padding-top: 76px;
+}
+.text{
+color: #212121;
+font-family: "Montserrat";
+font-size: 18px;
+font-weight: 300;
+text-align: center;
+padding-top: 36px;
+}
+.internet{
+display: block;
+display: flex;
+padding-top: 114px;
+padding-left: 240px;
+}
+.transfer{
+display: block;
+display: flex;
+padding-top: 114px;
+padding-left: 203px;
+}
+.head{
+display: block;
+display: flex;
+padding-top: 114px;
+padding-left: 170px;
+}
+.awesome{
+color: #212121;
+font-family: 'Montserrat';
+font-size: 20px;
+font-weight: 400;
+text-align: center;
+padding-top: 40px;
+margin-left: 100px;
+}
+.one{
+color: #212121;
+font-family: 'Montserrat';
+font-size: 20px;
+font-weight: 400;
+text-align: center;
+padding-top: 40px;
+margin-left: 20px;
+}
+.responsive{
+color: #212121;
+font-family: 'Montserrat';
+font-size: 20px;
+font-weight: 400;
+text-align: center;
+padding-top: 40px;
+margin-left: -30px;
+}
+.lo{
+color: #212121;
+font-family: 'Montserrat';
+font-size: 15px;
+font-weight: 300;
+text-align: center;
+padding-top: 22px;
+padding-left: 100px;
+padding-bottom: 126px;
+}
+.re{
+color: #212121;
+font-family: 'Montserrat';
+font-size: 15px;
+font-weight: 300;
+text-align: center;
+padding-top: 22px;
+padding-left: 20px;
+padding-bottom: 126px;
+}
+.m{
+color: #212121;
+font-family: 'Montserrat';
+font-size: 15px;
+font-weight: 300;
+text-align: center;
+padding-top: 22px;
+padding-bottom: 126px;
+}
+/*Конец второй секции*/
+
+
+
+
+
+/*Начало третей секции*/
+
+.awesome-text{
+background-color: rgb(204, 248, 246);
+height: 100%;
+}
+.conteiner-cards{
+width: 80%;
+margin: 0 auto;
+text-align: center;
+} 
+.conteiner-cards h1{
+font-size: 30px;
+text-align: center;
+font-family: 'Montserrat';
+font-weight: 700;
+padding-top: 150px;
+} 
+.conteiner-cards p{
+margin-top: 36px;
+font-size: 20px;
+color: #212121;
+font-family: 'Montserrat';
+font-weight: 300;
+}
+.cards-conteiner{
+justify-content: space-between;
+display: flex;
+margin: 0 0 30 0 ;
+padding-bottom: 50px ;
+}
+.top-card1{
+background-color: #00897b;
+margin-right: 30px;
+margin-top: 90px;
+padding-bottom: 70px;
+}
+.top-card1 img{
+padding-top: 58px;
+}
+.top-card{
+margin-right: 30px;
+margin-top: 90px;
+background-color: white;
+padding-bottom: 50px;
+}
+.top-card img{
+padding-top: 58px;
+}
+.top-card h1{
+font-size: 20px;
+color:#212121;
+font-family: 'Montserrat';
+font-weight: 400;
+padding-top: 30px;
+}
+.top-card1 h1{
+font-size: 20px;
+font-family: 'Montserrat';
+font-weight: 400;
+padding-top: 30px;
+color: white;
+}
+.top-card1 p{
+color: white;
+font-size: 18px;
+font-family: 'Montserrat';
+font-weight:300;
+text-align: center;
+padding-top: 20px;
+}
+.top-card p{
+color: #212121;
+font-size: 18px;
+font-family: 'Montserrat';
+font-weight: 300;
+text-align: center;
+padding-top: 20px;
+}
+.top-card1 button{
+display: block;
+margin: 0 auto;
+width: 150px;
+height: 50px;
+color: white;
+background-color: Transparent;
+background-repeat:no-repeat;
+border-color: white;
+cursor:pointer;
+overflow: hidden;
+margin-top:10px;
+font-size: 20px;
+text-align: center;
+font-family: 'Quicksand';
+font-weight: 400;
+}
+.top-card button{
+display: block;
+margin: 0 auto;
+width: 150px;
+height: 50px;
+background-color: white;
+border-color: rgb(2, 2, 2);
+color: black;
+margin-top: 10px;
+font-size: 20px;
+text-align: center;
+font-family: 'Quicksand';
+font-weight: 400;
+}
+.conteiner2{
+margin-top: 60px;
+width: 80%;
+margin: 0 auto;
+text-align: center;
+}
+#card{
+margin-top: -10px;
+}
+/* Конец третей секции */
+
+
+
+
+/* начало четвертой секции*/
+.section-works{
+height: 100%;
+}
+.conteiner-works{
+width: 60%;
+margin: 0 auto;
+text-align: center;
+}
+.conteiner-works h1{
+color: #212121;
+font-family: "Montserrat";
+font-size: 30px;
+font-weight: 700;
+text-align: center;
+padding-top: 120px;
+}
+.conteiner-works p{
+color: #212121;
+font-family: "Montserrat";
+font-size: 18px;
+font-weight: 300;
+text-align: center;
+padding-top: 36px;
+}
+
+/* Строка кнопок*/
+.button-line{
+margin-top: 100px;
+display: flex;
+justify-content: space-between;
+}
+.button-green{
+width: 100px;
+height: 55px;
+background-color: #00897b;
+border-color: #00897b;
+color: white;
+}
+.button{
+width: 179px;
+height: 55px;
+border: 2px solid #00897b;
+background-color: #ffffff;
+background-color: Transparent;
+background-repeat:no-repeat;
+cursor:pointer;
+overflow: hidden;
+}
+/*первая строка картинок*/
+.conteiner-album{
+width: 80%;
+margin: 0 auto;
+text-align: center;
+}
+.dark{
+background-color: black;
+opacity: 0.5;
+margin-right: 10px;
+}
+.lone-card{
+display: flex;
+justify-content: space-between;
+margin-top: 100px;
+background-color: black;
+width: 370px;
+height: 370px;
+}
+.condom{
+margin-right: 10px;
+}
+/* вторая строка картинок */
+.conteiner-albums{
+width: 80%;
+margin: 0 auto;
+text-align: center;
+}
+.many-card{
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+width: 370px;
+height: 370px;
+}
+.portfel{
+padding-left: 10px;
+}
+.tup{
+padding-left: 10px;
+}
+/* кнопка в конце*/
+.conteiner-button{
+width: 80%;
+margin: 0 auto;
+text-align: center;
+}
+.button-green2{
+width: 220px;
+height: 70px;
+background-color: #00897b;
+border-color: #00897b;
+color: white;
+margin-top: 130px;
+margin-bottom: 136px;
+}
+/* Конец четвертой секции*/
+
+
+
+
+/*Начало пятой секции*/
+.section-prising{
+height: 100%;
+background-color: #e9f0ed;
+padding-bottom: 187px;
+}
+.conteiner-plan{
+width: 50%;
+margin: 0 auto;
+text-align: center;
+}
+.conteiner-plan h1{
+color: black;
+font-family: "Montserrat";
+font-size: 30px;
+font-weight: 700;
+text-align: center;
+padding-top: 127px;
+
+}
+.conteiner-plan p{
+color: black;
+font-family: "Montserrat";
+font-size: 18px;
+font-weight: 300;
+text-align: center;
+padding-top: 29px;
+}
+.conteiner-cheks{
+width: 80%;
+margin: 0 auto;
+text-align: center;
+display: flex;
+justify-content: space-between;
+}
+/* Контейнеры-карточки*/
+.trail{
+width: 370px;
+height: 667px;
+color: white;
+background: -webkit-linear-gradient(180deg, rgb(22, 12, 114) 9%, rgb(253, 253, 253) 39%);
+background: -moz-linear-gradient(180deg, rgb(22, 12, 114) 9%, rgb(253, 253, 253) 39%);
+background: linear-gradient(180deg, rgb(22, 12, 114) 9%, rgb(253, 253, 253) 39%);
+margin-top: 126px;
+}
+.basic{
+width: 370px;
+height: 667px;
+color: white;
+background: -webkit-linear-gradient(180deg, rgb(22, 12, 114) 9%, rgb(253, 253, 253) 39%);
+background: -moz-linear-gradient(180deg, rgb(22, 12, 114) 9%, rgb(253, 253, 253) 39%);
+background: linear-gradient(180deg, rgb(22, 12, 114) 9%, rgb(253, 253, 253) 39%);
+margin-top: 126px;
+}
+.ultimate{
+width: 370px;
+height: 667px;
+color: white;
+background: -webkit-linear-gradient(180deg, rgb(22, 12, 114) 9%, rgb(253, 253, 253) 39%);
+background: -moz-linear-gradient(180deg, rgb(22, 12, 114) 9%, rgb(253, 253, 253) 39%);
+background: linear-gradient(180deg, rgb(22, 12, 114) 9%, rgb(253, 253, 253) 39%);
+margin-top: 126px;
+}
+
+/*Текст внутри карточек*/
+.trail h2{
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 30px;
+font-weight: 300;
+text-align: center;
+padding-top: 48px;
+}
+.trail p{
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 17px;
+font-weight: 300;
+text-align: center;
+}
+.trail h1{
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 50px;
+font-weight: 400;
+text-align: center;
+}
+.but-not{
+width: 180px;
+height: 60px;
+border: 2px solid #00897b;
+background-color: #ffffff;
+background-color: Transparent;
+background-repeat:no-repeat;
+cursor:pointer;
+overflow: hidden;
+margin-top: 50px;
+}
+
+.conteiner-but_not{
+display: block;
+}
+
+.basic h2{
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 30px;
+font-weight: 300;
+text-align: center;
+padding-top: 48px;
+}
+.basic p{
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 17px;
+font-weight: 300;
+text-align: center;
+}
+.basic h1{
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 50px;
+font-weight: 400;
+text-align: center;
+}
+
+.but-not2{
+width: 180px;
+height: 60px;
+background-color: #00897b;
+border-color: #00897b;
+color: white;
+margin-top: 50px;
+}
+
+.ultimate p{
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 17px;
+font-weight: 300;
+text-align: center;
+}
+.ultimate h1{
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 50px;
+font-weight: 400;
+text-align: center;
+}
+.ultimate h2{
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 30px;
+font-weight: 300;
+text-align: center;
+padding-top: 48px;
+}
+.but-not3{
+width: 180px;
+height: 60px;
+border: 2px solid #00897b;
+background-color: #ffffff;
+background-color: Transparent;
+background-repeat:no-repeat;
+cursor:pointer;
+overflow: hidden;
+margin-top: 50px;
+}
+
+.nav a{
+color: #212121;
+font-family: "Montserrat";
+font-size: 17px;
+font-weight: 300;
+text-align: center;
+line-height: 10px;
+padding-top: 50px;
+}
+/* Конец пятой секции */
+
+
+
+
+/* Начало шестой секции*/
+.team-member{
+height: 100%;
+}
+.conteiner-team_text{
+width: 50%;
+text-align: center;
+margin: 0 auto;
+}
+.conteiner-team_text h1{
+color: #212121;
+font-family: "Montserrat";
+font-size: 30px;
+font-weight: 700;
+text-align: center;
+padding-top: 122px;
+}
+.conteiner-team_text p{
+color: #212121;
+font-family: "Montserrat";
+font-size: 18px;
+font-weight: 300;
+text-align: center;
+padding-top: 36px;
+}
+.conteiner-photo_members{
+margin: 0 auto;
+padding-top: 126px;
+width: 80%;
+display: flex;
+justify-content: space-between;
+}
+.first-member h1{
+color: #212121;
+font-family: "Montserrat";
+font-size: 20px;
+font-weight: 400;
+text-align: center;
+padding-top: 38px;
+}
+.first-member p{
+color: #212121;
+font-family: "Montserrat";
+font-size: 18px;
+font-weight: 300;
+text-align: center;
+padding-top: 12px;
+}
+.second-member h1{
+color: #212121;
+font-family: "Montserrat";
+font-size: 20px;
+font-weight: 400;
+text-align: center;
+padding-top: 38px;
+}
+.second-member p{
+color: #212121;
+font-family: "Montserrat";
+font-size: 18px;
+font-weight: 300;
+text-align: center;
+padding-top: 12px;
+}
+.third-member h1{
+color: #212121;
+font-family: "Montserrat";
+font-size: 20px;
+font-weight: 400;
+text-align: center;
+padding-top: 38px;
+}
+.third-member p{
+color: #212121;
+font-family: "Montserrat";
+font-size: 18px;
+font-weight: 300;
+text-align: center;
+padding-top: 12px;    
+}
+.soc{
+width: 60%;
+margin: 0 auto;
+padding-top: 40px;
+display: flex;
+justify-content: space-between;
+}
+.dots{
+width: 100%;
+text-align: center;
+padding-top: 126px;
+padding-bottom: 124px;
+}
+
+/* Конец шестой секции */
+
+
+
+
+/* Начало седьмой секции*/
+
+.blog{
+width: 100%;
+background-color: #e4fdf9;
+}
+.conteiner-blog_information{
+width: 50%;
+text-align: center;
+margin: 0 auto;
+}
+.conteiner-blog_information h1{
+color: #212121;
+font-family: "Montserrat";
+font-size: 30px;
+font-weight: 700;
+text-align: center;
+padding-top: 124px;
+}
+.conteiner-blog_information p{
+color: #212121;
+font-family: "Montserrat";
+font-size: 18px;
+font-weight: 300;
+text-align: center;
+padding-top: 29px;
+}
+/* Конец седьмой секции*/
